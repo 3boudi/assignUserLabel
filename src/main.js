@@ -5,7 +5,7 @@ export default async ({ req, res, log }) => {
     // إعداد الاتصال بـ Appwrite
     const client = new Client()
       .setEndpoint('https://fra.cloud.appwrite.io/v1')
-      .setProject('68f12002d82428fd9b8d')
+      .setProject("68bf228300007baa47f9")
       .setKey(process.env.APPWRITE_API_KEY);
 
     const users = new Users(client);
